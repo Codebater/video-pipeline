@@ -1,0 +1,17 @@
+node_modules/
+out/
+
+# Music is licensed per-track, not ours to redistribute
+assets/music/*.mp3
+assets/music/*.wav
+
+# Site configs carry client brand data, copy, logos and absolute local paths.
+# Only the sanitised example ships.
+sites/*.json
+!sites/example.json
+!sites/example.reel.json
+!sites/example.loop.json
+!sites/example.story.json
+
+.env
+.DS_Store

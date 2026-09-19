@@ -1,0 +1,51 @@
+{
+  "name": "example",
+  "url": "http://localhost:3000",
+  "lang": "en",
+  "viewport": { "width": 1920, "height": 1080 },
+  "fps": 30,
+  "navOffset": 96,
+
+  "brand": {
+    "bg": "#1a1a1a",
+    "bgDeep": "#0d0d0d",
+    "cream": "#FAF8F5",
+    "primary": "#1a1a1a",
+    "accent": "#f4abc8",
+    "text": "#FAF8F5"
+  },
+
+  "fonts": {
+    "heading": "assets/fonts/heading.ttf",
+    "body": "assets/fonts/body.ttf"
+  },
+
+  "logo": "assets/logo.png",
+  "music": "assets/music/track.mp3",
+
+  "initScript": "sessionStorage.setItem('preloader-seen','1')",
+
+  "intro": {
+    "seconds": 3.2,
+    "title": "Example Site",
+    "subtitle": "One line of positioning · City"
+  },
+
+  "outro": {
+    "seconds": 3.6,
+    "headline": "Get in touch today",
+    "url": "example.com"
+  },
+
+  "shots": [
+    { "type": "hold",   "at": "#hero",     "seconds": 3.0, "caption": "Calm. Professional. Painless." },
+    { "type": "scroll", "to": "#services", "seconds": 2.2, "ease": "inOut" },
+    { "type": "hold",   "at": "#services", "seconds": 2.8, "caption": "What we do" },
+    { "type": "scroll", "to": "#pricing",  "seconds": 2.2, "ease": "inOut" },
+    { "type": "hold",   "at": "#pricing",  "seconds": 2.8, "caption": "Transparent pricing" },
+    { "type": "scroll", "to": "#process",  "seconds": 5.0, "ease": "linear", "caption": "How it works, step by step" },
+    { "type": "hold",   "at": "#about",    "seconds": 2.6, "caption": "Who you'll be working with" },
+    { "type": "scroll", "to": "#contact",  "seconds": 2.4, "ease": "inOut" },
+    { "type": "hold",   "at": "#contact",  "seconds": 3.0, "caption": "We'd love to hear from you" }
+  ]
+}
